@@ -14,6 +14,7 @@ const Pokedex = () => {
   const nameTrainer = useSelector(store => store.nameTrainer)
 
   const {
+
     handleSubmit,
     handleChangeSelect,
     types,
@@ -21,6 +22,8 @@ const Pokedex = () => {
     handlePreviousPage,
     handleNextPage,
     pagesInBlock,
+    setCurrentPage,
+    lastPage
   } = usePokedex()
 
 

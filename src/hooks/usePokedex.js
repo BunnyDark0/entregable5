@@ -88,7 +88,9 @@ const usePokedex = () => {
     pokemonsInpage,
     handlePreviousPage,
     handleNextPage,
-    pagesInBlock
+    pagesInBlock,
+    setCurrentPage,
+    lastPage
   }
 }
 
